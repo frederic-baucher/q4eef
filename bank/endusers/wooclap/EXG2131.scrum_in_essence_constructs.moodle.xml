@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 2633324  -->
+  <question type="matching">
+    <name>
+      <text>SCRUM in Essence concepts</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text>For each element of the SCRUM big picture, associate a type</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>false</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text>1 - Product Owner</text>
+      <answer>
+        <text>Role</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>2 - Product Backlog</text>
+      <answer>
+        <text>Work Product</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>3- Sprint Planning Meeting</text>
+      <answer>
+        <text>Activity</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>4 - Sprint Backlog</text>
+      <answer>
+        <text>Work Product</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>5 - Development Team</text>
+      <answer>
+        <text>Role</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>6 - Daily Scrum</text>
+      <answer>
+        <text>Activity</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>7 - Scrum Master</text>
+      <answer>
+        <text>Role</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>8 - Increment</text>
+      <answer>
+        <text>Work Product</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>9 - Sprint Review</text>
+      <answer>
+        <text>Activity</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>10 - Retrospective</text>
+      <answer>
+        <text>Activity</text>
+      </answer>
+    </subquestion>
+  </question>
+
+</quiz>
