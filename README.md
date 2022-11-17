@@ -123,7 +123,6 @@ $\textcolor{grey}{\text{game}} \textcolor{black}{\text{-}}\textcolor{blue}{\text
 
 # Quizz taxonomies
 
-<!-- if needed, a nicer edition is possible by copy-paste on https://www.tablesgenerator.com/markdown_tables -->
 | tools>                   | quizizz     | moodle          | kahoot | wooclap        | mentimeter | digitaliser |
 |--------------------------|-------------|-----------------|--------|----------------|------------|-------------|
 | multiple choice question | OK          | OK              | OK     |                | 2          |             |
