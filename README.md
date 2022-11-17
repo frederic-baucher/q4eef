@@ -15,9 +15,19 @@
 
 # Creator tools
 
-|         | type(s)   | preferred (first) | preferred (second) |
+|         | type(s)   | format preferred (first) | preferred (second) |
 |---------|-----------|-------------------|--------------------|
-| moodle  | MCQ       | AIKEN             | Moodle XML         |
-|         | Matching  | Moodle XML        |                    |
+| moodle  | MCQ       | aiken             | moodle_xml         |
+|         | Matching  | moodle_xml        |                    |
 | quizizz | MCQ       | [quizizz Excel](doc/export_from_quizizz.md)     |                    |
 |         | Matching$ | not tested            |                    |
+
+## Naming convention
+Any exercise is exported in file that MUST BE COMPLIANT with the naming convention
+- creator repository identifier (upper case alphabets [A-Z])
+- id of the exercise (upper case numbers [0-9], unique inside the creator repository)
+- label (only low-case alphabets [a-z] underscore separated if necessary)
+- language
+- format name (among the format list)
+- format extension (xlsx, txt, csv, ...)
+
