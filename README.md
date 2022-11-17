@@ -31,3 +31,10 @@ Any exercise is exported in file that MUST BE COMPLIANT with the naming conventi
 - format name (among the format list)
 - format extension (xlsx, txt, csv, ...)
 
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
