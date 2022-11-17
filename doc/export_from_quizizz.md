@@ -5,4 +5,4 @@ As indicated in [Quizizz forum](https://feedback.quizizz.com/posts/423/ability-t
 ## Workaround
 
 - On the admin page, right-click and _Save the page_.
-- Use reg exp to extract the data of interest and generate a csv file with structure of [doc/format/quizziz_excel.md]
+- Use reg exp (MORE EXPLANATION TO BE DONE #1) to extract the data of interest and generate a csv file with structure of [doc/format/quizziz_excel.md]
