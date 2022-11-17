@@ -49,6 +49,32 @@ q4eef
 │   └───repo4export
 ```
 
+```bash
+├── bank
+│   ├── pivots4adapt
+│   │   └── getmarked
+│   │       └── EXG1472A.serious_games.getmarked.txt
+│   ├── ready2import
+│   │   ├── kahoot
+│   │   │   ├── EXG1472A.serious_games.kahoot.xlsx
+│   │   │   ├── EXG2131.scrum_in_essence_constructs-en.png
+│   │   │   └── EXG2131.scrum_in_essence_constructs.kahoot.xlsx
+│   │   ├── moodle
+│   │   │   ├── EXG1472A.serious_games.aiken.txt
+│   │   │   └── EXG2131.scrum_in_essence_constructs.moodle.xml
+│   │   ├── quizziz
+│   │   │   ├── EXG1472A.serious_games.quizizz.xlsx
+│   │   │   └── EXG2131.scrum_in_essence_constructs.quizizz.xlsx
+│   │   └── wooclap
+│   │       ├── EXG1472A.serious_games.moodle.xml
+│   │       └── EXG2131.scrum_in_essence_constructs.moodle.xml
+│   └── repo4export
+│       ├── EXG1472A.serious_games.aiken.txt
+│       ├── EXG2131.scrum_in_essence_constructs-en.png
+│       ├── EXG2131.scrum_in_essence_constructs-fr.png
+│       └── EXG2131.scrum_in_essence_constructs.gift.txt
+```
+
 # Creator tools
 
 ## Recommended export by creator tools
