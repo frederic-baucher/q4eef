@@ -1,5 +1,0 @@
-1. Progress Poker helps to ensure that _____ checklist item(s) is/are considered.
-* A. all
-B. some
-C. the last
-D. the first
