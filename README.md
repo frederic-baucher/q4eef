@@ -26,18 +26,6 @@ Use cases :
 q4eef is implemented in this Github repository
 - a __creator__ must have an account on Github and be granted with write access to q4eef repository
 
-<!--
-# Quizz taxonomies
-
-<!-- if needed, a nicer edition is possible by copy-paste on https://www.tablesgenerator.com/markdown_tables -->
-| tools>                   | quizizz     | moodle          | kahoot | wooclap        | mentimeter | digitaliser |
-|--------------------------|-------------|-----------------|--------|----------------|------------|-------------|
-| multiple choice question | OK          | OK              | OK     |                | 2          |             |
-| One choice question      |             |                 | OK     |                | 2          |             |
-| true/false               | $           | OK              | OK     |                | 2          |             |
-| matching                 | $ drag&drop | dropdown merged | N/A    | radio unmerged | N/A        |             |
-| open                     |             | OK              |        |                |            |             |
--->
 
 ### Directory tree
 
@@ -130,4 +118,20 @@ $\textcolor{grey}{\text{game}} \textcolor{black}{\text{-}}\textcolor{blue}{\text
 > This is a note.
 > 
 -->
+
+<!--
+
+# Quizz taxonomies
+
+<!-- if needed, a nicer edition is possible by copy-paste on https://www.tablesgenerator.com/markdown_tables -->
+| tools>                   | quizizz     | moodle          | kahoot | wooclap        | mentimeter | digitaliser |
+|--------------------------|-------------|-----------------|--------|----------------|------------|-------------|
+| multiple choice question | OK          | OK              | OK     |                | 2          |             |
+| One choice question      |             |                 | OK     |                | 2          |             |
+| true/false               | $           | OK              | OK     |                | 2          |             |
+| matching                 | $ drag&drop | dropdown merged | N/A    | radio unmerged | N/A        |             |
+| open                     |             | OK              |        |                |            |             |
+
+-->
+
 
