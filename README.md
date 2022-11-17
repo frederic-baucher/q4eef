@@ -69,11 +69,12 @@ q4eef
 | moodle  | MCQ       | [aiken]           | [moodle_xml]         |
 |         | Matching  | [moodle_xml]        |                    |
 | quizizz | MCQ       | [quizizz Excel]   |                    |
-|         | Matching$ | not tested            |                    |
+|         | Matching$ | [not tested]            |                    |
 
 [aiken]: https://github.com/frederic-baucher/q4eef/blob/main/doc/formats/aiken.md
 [moodle_xml]: https://github.com/frederic-baucher/q4eef/blob/main/doc/formats/moodle_xml.md
 [quizizz Excel]: https://github.com/frederic-baucher/q4eef/blob/main/doc/formats/quizizz_excel.md
+[not tested]: https://github.com/frederic-baucher/q4eef/blob/main/doc/formats/not_tested.md
 
 ## Storage repository : pivots
 The file exported from the creator tool has to be stored in the [__native pivots__](https://github.com/frederic-baucher/q4eef/tree/main/bank/repo4export) directory of this Github repository. Any additional file (for instance, images) has to be stored in the same place. All the files must follow the __q4eef naming convention__.
