@@ -11,31 +11,27 @@
 | matching                 | $ drag&drop | dropdown merged | N/A    | radio unmerged | N/A        |             |
 | open                     |             | OK              |        |                |            |             |
 
-# directory tree
+# Directory tree
+
+The main directories for user's of q4eef are as follow :
+- __pivots__ : stores the files exported by creator of exercise from their tools of choice (in the format recommended in the table _Creator tools_).
+- __ready2import__ : organised by tools, stores the files to be imported in the LMS (moodle, ...) or quizz (kahoot, quizizz, wooclap, ...) tools. These files are copies or conversion of the original files stored in __pivots__.
 
 ```bash
 q4eef                 
 └───bank            
     ├───adapters    
     │   └───getmarked
+    │   └───any_new_adapter...    
     ├───pivots      
     └───ready2import
         ├───kahoot  
         ├───moodle  
         ├───quizziz 
         └───wooclap 
+        └───any_new_tool_of_reuser ...             
 ```
 
-q4eef                 
-└───bank            
-    ├───adapters    
-    │   └───getmarked
-    ├───pivots      
-    └───ready2import
-        ├───kahoot  
-        ├───moodle  
-        ├───quizziz 
-        └───wooclap
 
 # Reuser tools
 
