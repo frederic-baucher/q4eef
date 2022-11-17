@@ -30,10 +30,10 @@ $\textcolor{grey}{\text{game}} \textcolor{black}{\text{-}}\textcolor{blue}{\text
 | quizizz | MCQ       | [quizizz Excel](doc/export_from_quizizz.md)     |                    |
 |         | Matching$ | not tested            |                    |
 
-## Storage repository
-The file exported from the creator tool has to be stored in the [__pivots__](https://github.com/frederic-baucher/q4eef/tree/main/bank) directory of this Github repository.
+## Storage repository : pivots
+The file exported from the creator tool has to be stored in the [__pivots__](https://github.com/frederic-baucher/q4eef/tree/main/bank) directory of this Github repository. Any additional file (for instance, images) has to be stored in the same place. All the file must follow the __q4eef naming convention__.
 
-## Naming convention
+## Naming convention : q4eef
 Any exercise is exported in file that MUST BE COMPLIANT with the naming convention
 ### Pattern
 - $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}\textcolor{black}{\text{[-}}\textcolor{blue}{\text{lang}}\textcolor{black}{\text{][.}}\textcolor{pink}{\text{type}}\textcolor{black}{\text{][.}}\textcolor{green}{\text{format}}\textcolor{black}{\text{].}}\textcolor{purple}{\text{extension}}$
