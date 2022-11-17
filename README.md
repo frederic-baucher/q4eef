@@ -46,5 +46,5 @@ Any exercise is exported in file that MUST BE COMPLIANT with the naming conventi
 > This is a note.
 > 
 
-$\textcolor{yellow}{\text{Hello World}}$
+$\textcolor{red}{\text{Hello World}}$
 
