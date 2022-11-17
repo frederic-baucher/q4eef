@@ -23,7 +23,7 @@
 |         | Matching$ | not tested            |                    |
 
 ## Storage repository : pivots
-The file exported from the creator tool has to be stored in the [__pivots__](https://github.com/frederic-baucher/q4eef/tree/main/bank) directory of this Github repository. Any additional file (for instance, images) has to be stored in the same place. All the file must follow the __q4eef naming convention__.
+The file exported from the creator tool has to be stored in the [__pivots__](https://github.com/frederic-baucher/q4eef/tree/main/bank) directory of this Github repository. Any additional file (for instance, images) has to be stored in the same place. All the files must follow the __q4eef naming convention__.
 
 ## Naming convention : q4eef
 Any exported exercise file __MUST__ have a name __COMPLIANT__ with the naming convention.
