@@ -51,7 +51,7 @@ To  let any creator choose its identification numbering of exercise (and yet hav
 
 | id      | creator's tool | tool's operator | creator reference                                                          |
 |---------|----------------|-----------------|----------------------------------------------------------------------------|
-| EXG     | Moodle         | INSA-ROUEN      | (LinkedIn)[https://fr.linkedin.com/in/fr%C3%A9d%C3%A9ric-baucher-3026481a] |
+| EXG     | Moodle         | INSA-ROUEN      | [Frédéric BAUCHER](https://fr.linkedin.com/in/fr%C3%A9d%C3%A9ric-baucher-3026481a) |
 | welcome | new            | new             | you                                                                        |
 
 <!--
