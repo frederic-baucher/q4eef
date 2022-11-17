@@ -5,15 +5,23 @@
 ## Usage
 q4eef is a solution for sharing Essence exercises and support the Essence adoption in education.
 
-The actors
+### Glossary
+The actors of this solution are :
+- __creator__ : any teacher, consultant, ... willing to share with q4eef an exercise she/he created in a Questions_Bank of her/his choice (Moodle, ...).
+- __reuser__ : any teacher that wants to reuse exercise stored in q4eef
+- __moderator__ : designated teacher(s) monitoring the access to q4eef
+- __maintainer__ : any creator or moderator that generate the target pivots
 
-The use cases illustrated below are :
+Other terms :
+- __native pivot__ : file exported from the creator tool
+- __target pivot__ : file to be imported in the reuser tool (in case the creator and the reuser have the same export and import format respectively), the target pivot is a copy of the native pivot.
 
+### Diagram
 ![Use case diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/frederic-baucher/q4eef/main/doc/usecases.puml)
 
 ## Implementation
 q4eef is implemented in this Github repository
-
+- a __creator__ must have an account on Github and be granted with write access to q4eef repository
 
 <!--
 # Quizz taxonomies
