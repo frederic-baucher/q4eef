@@ -1,4 +1,4 @@
-$\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{grey}{\text{label}}\textcolor{blue}{\text{lang}}$
+$\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{grey}{\text{label}}\textcolor{black}{\text{-}}\textcolor{blue}{\text{lang}}$
 
 $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{1472}}$
 
