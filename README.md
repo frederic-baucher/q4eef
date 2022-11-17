@@ -38,7 +38,7 @@ Any exported exercise file __MUST__ have a name __COMPLIANT__ with the naming co
 - $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{2131}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{scrum-in-essence-constructs}}\textcolor{black}{\text{-}}\textcolor{blue}{\text{fr}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{png}}$
   - a file containing an image localised in french to be used with exercise EXG2131
 ### Legend
-- $\textcolor{red}{\text{creator}}$ : creator repository identifier (upper case alphabets [A-Z])
+- $\textcolor{red}{\text{creator}}$ : creator question bank identifier (upper case alphabets [A-Z]), as registered in the table below
 - $\textcolor{orange}{\text{id}}$ : id of the exercise (upper case numbers [0-9], unique inside the creator repository)
 - $\textcolor{grey}{\text{label}}$ : label (only low-case alphabets [a-z] underscore separated if necessary)
 - $\textcolor{blue}{\text{lang}}$ : language code compliant with ISO 639-1 (default : en)
@@ -46,6 +46,8 @@ Any exported exercise file __MUST__ have a name __COMPLIANT__ with the naming co
 - $\textcolor{green}{\text{format}}$ : logical format name (among the format list)
 - $\textcolor{purple}{\text{extension}}$ : technical format name (xlsx, txt, csv, ...)
 
+## Registered creators
+To  let any creator choose its identification numbering of exercise (and yet have a unique id for any exercise in q4eef), a creator MUST have a creator id. This table list the creators already registered. To add a new creator, request a write access to this Github repository and edit the table below in [this README.md file](https://github.com/frederic-baucher/q4eef/edit/main/README.md).
 
 <!--
 How to color text in README.md
