@@ -1,11 +1,3 @@
-
-<!--
-$\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{1472}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious}}$
-_
-$\textcolor{grey}{\text{game}} \textcolor{black}{\text{-}}\textcolor{blue}{\text{en}}\textcolor{black}{\text{.}}\textcolor{green}{\text{aiken}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{txt}}$
--->
-
-
 # q4eef
 
 # Quizz taxonomies
@@ -34,7 +26,8 @@ $\textcolor{grey}{\text{game}} \textcolor{black}{\text{-}}\textcolor{blue}{\text
 The file exported from the creator tool has to be stored in the [__pivots__](https://github.com/frederic-baucher/q4eef/tree/main/bank) directory of this Github repository. Any additional file (for instance, images) has to be stored in the same place. All the file must follow the __q4eef naming convention__.
 
 ## Naming convention : q4eef
-Any exercise is exported in file that MUST BE COMPLIANT with the naming convention
+Any exported exercise file __MUST__ have a name __COMPLIANT__ with the naming convention.
+
 ### Pattern
 - $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}\textcolor{black}{\text{[-}}\textcolor{blue}{\text{lang}}\textcolor{black}{\text{][.}}\textcolor{pink}{\text{type}}\textcolor{black}{\text{][.}}\textcolor{green}{\text{format}}\textcolor{black}{\text{].}}\textcolor{purple}{\text{extension}}$
 ### Example
@@ -53,6 +46,14 @@ Any exercise is exported in file that MUST BE COMPLIANT with the naming conventi
 - $\textcolor{green}{\text{format}}$ : logical format name (among the format list)
 - $\textcolor{purple}{\text{extension}}$ : technical format name (xlsx, txt, csv, ...)
 
+
+<!--
+How to color text in README.md
+
+$\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{1472}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious}}$
+_
+$\textcolor{grey}{\text{game}} \textcolor{black}{\text{-}}\textcolor{blue}{\text{en}}\textcolor{black}{\text{.}}\textcolor{green}{\text{aiken}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{txt}}$
+
 ```diff
 - text in red
 + text in green
@@ -67,5 +68,5 @@ Any exercise is exported in file that MUST BE COMPLIANT with the naming conventi
 > __Note__
 > This is a note.
 > 
-
+-->
 
