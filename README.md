@@ -1,9 +1,21 @@
 # q4eef
 
-# Usage
+# Introduction 
+
+## Usage
+q4eef is a solution for sharing Essence exercises and support the Essence adoption in education.
+
+The actors
+
+The use cases illustrated below are :
+
 ![Use case diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/frederic-baucher/q4eef/main/doc/usecases.puml)
 
+## Implementation
+q4eef is implemented in this Github repository
 
+
+<!--
 # Quizz taxonomies
 
 <!-- if needed, a nicer edition is possible by copy-paste on https://www.tablesgenerator.com/markdown_tables -->
@@ -14,8 +26,9 @@
 | true/false               | $           | OK              | OK     |                | 2          |             |
 | matching                 | $ drag&drop | dropdown merged | N/A    | radio unmerged | N/A        |             |
 | open                     |             | OK              |        |                |            |             |
+-->
 
-# Directory tree
+### Directory tree
 
 The main directories for user's of q4eef are as follow :
 - __repo4export__ : stores the files exported by creator of exercise from their tools of choice (in the format recommended in the table _Creator tools_).
@@ -36,9 +49,6 @@ q4eef
 │   │   └───any_new_tool_of_reuser ...             
 │   └───repo4export
 ```
-
-
-# Reuser tools
 
 # Creator tools
 
