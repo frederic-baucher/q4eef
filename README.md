@@ -17,7 +17,7 @@
 q4eef                 
 └───bank            
     ├───adapters    
-    │   └───getmarke
+    │   └───getmarked
     ├───pivots      
     └───ready2import
         ├───kahoot  
@@ -26,6 +26,16 @@ q4eef
         └───wooclap 
 ```
 
+q4eef                 
+└───bank            
+    ├───adapters    
+    │   └───getmarked
+    ├───pivots      
+    └───ready2import
+        ├───kahoot  
+        ├───moodle  
+        ├───quizziz 
+        └───wooclap
 
 # Reuser tools
 
