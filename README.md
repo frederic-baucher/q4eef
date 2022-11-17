@@ -19,18 +19,18 @@ The main directories for user's of q4eef are as follow :
 - __adapters__ : organised by tools, stores the files to be converted by an adapter. An adapter is a tool able to generate many formats from one pivot, like _digitaliser_ operated by _getmarked_ that can generate _Quizizz Excel, Kahoot Excel_ from a _getmarked_ pivot format).
 
 ```bash
-q4eef                 
-└───bank            
-    ├───adapters    
-    │   └───getmarked
+q4eef
+├───bank
+│   ├───pivots4adapt
+│   │   └───getmarked
     │   └───any_new_adapter...    
-    ├───pivots      
-    └───ready2import
-        ├───kahoot  
-        ├───moodle  
-        ├───quizziz 
-        └───wooclap 
-        └───any_new_tool_of_reuser ...             
+│   ├───ready2import
+│   │   ├───kahoot
+│   │   ├───moodle
+│   │   ├───quizziz
+│   │   └───wooclap
+│   │   └───any_new_tool_of_reuser ...             
+│   └───repo4export
 ```
 
 
