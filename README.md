@@ -54,10 +54,12 @@ q4eef
 This tree shows two exercises identified by id EXG1427A (mcq type) and id EXG2131 (matching type).
 - EXG1427A has been created in Quizizz and is made available in AIKEN format for other tools.
 - EXG2131 has been created in Moodle and is made available in GIFT format for other tools.
+
 In __repo4export__ directory, we see the native pivot of __any__ shared exercise :
 - _EXG1472A.serious_games.aiken.txt_
 - _EXG2131.scrum_in_essence_constructs.gift.txt_
   - _EXG2131.scrum_in_essence_constructs-en.png, EXG2131.scrum_in_essence_constructs-fr.png_ : additional files that can be used (if allowed in target tool) for enhancing the student experience.
+
 The __native pivots__ has been converted in format allowed for import by the tools listed __ready2import__.
 - kahoot : contains __some (not necessary all)__ exercises available in _repo4export_ ready to be imported in Kahoot
   - _EXG1472A.serious_games.kahoot.xlsx_ : file to be imported in Kahoot to create EXG1472A exercise
@@ -66,6 +68,7 @@ The __native pivots__ has been converted in format allowed for import by the too
 - quizizz : contains some (not necessary all) exercises available in repo4export ready to be imported in Quizizz
   - _EXG2131.scrum_in_essence_constructs.quizizz.xlsx_ : no image because it is embedded in the quizizz Excel format that allow reference to an image.
 - other tools : if a reuser tool does not exist, she/he can ask for creating it her/himself
+
 If other conversion are necessary in the future, adapters pivot format can also be copied in __pivots4adapt__ :
 - _EXG1472A.serious_games.getmarked.txt_ : pivot format to be converted by getmarked
 
