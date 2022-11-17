@@ -1,3 +1,8 @@
+$\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{grey}{\text{label}}\textcolor{blue}{\text{lang}}$
+
+$\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{1472}}$
+
+
 # q4eef
 
 # Quizz taxonomies
@@ -46,5 +51,4 @@ Any exercise is exported in file that MUST BE COMPLIANT with the naming conventi
 > This is a note.
 > 
 
-$\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}$
 
