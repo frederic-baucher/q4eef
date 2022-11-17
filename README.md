@@ -16,6 +16,9 @@ Other terms :
 - __native pivot__ : file exported from the creator tool
 - __target pivot__ : file to be imported in the reuser tool (in case the creator and the reuser have the same export and import format respectively), the target pivot is a copy of the native pivot.
 
+Use cases :
+- Convert exercise : in case the exported format is not very convenient as a native pivot (like Quizizz](https://raw.githubusercontent.com/frederic-baucher/q4eef/main/doc/export_from_quizizz.md]), the creator can convert it with a dedicated tools (regex tools, spreadsheet, ...).
+
 ### Diagram
 ![Use case diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/frederic-baucher/q4eef/main/doc/usecases.puml)
 
