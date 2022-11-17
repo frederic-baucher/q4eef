@@ -1,0 +1,19 @@
+// question: 0  name: Switch category to $course$/top/EEF
+$CATEGORY: $course$/top/EEF
+
+
+// question: 2633324  name: SCRUM in Essence concepts
+::SCRUM in Essence concepts::For each element of the SCRUM big picture, associate a type{
+	=[html]1 - Product Owner -> Role
+	=[html]2 - Product Backlog -> Work Product
+	=[html]3- Sprint Planning Meeting -> Activity
+	=[html]4 - Sprint Backlog -> Work Product
+	=[html]5 - Development Team -> Role
+	=[html]6 - Daily Scrum -> Activity
+	=[html]7 - Scrum Master -> Role
+	=[html]8 - Increment -> Work Product
+	=[html]9 - Sprint Review -> Activity
+	=[html]10 - Retrospective -> Activity
+}
+
+
