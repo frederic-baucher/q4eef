@@ -19,5 +19,5 @@
 |---------|-----------|-------------------|--------------------|
 | moodle  | MCQ       | AIKEN             | Moodle XML         |
 |         | Matching  | Moodle XML        |                    |
-| quizizz | MCQ       | [quizizz Excel](export_from_quizizz.md)     |                    |
+| quizizz | MCQ       | [quizizz Excel](doc/export_from_quizizz.md)     |                    |
 |         | Matching$ | not tested            |                    |
