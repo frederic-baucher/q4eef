@@ -1,4 +1,4 @@
-$\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}\textcolor{black}{\text{-}}\textcolor{blue}{\text{lang}}\textcolor{black}{\text{.}}\textcolor{green}{\text{format}}\textcolor{purple}{\text{extension}}$
+$\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}\textcolor{black}{\text{-}}\textcolor{blue}{\text{lang}}\textcolor{black}{\text{.}}\textcolor{green}{\text{format}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{extension}}$
 
 $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{1472}}$
 
