@@ -46,5 +46,5 @@ Any exercise is exported in file that MUST BE COMPLIANT with the naming conventi
 > This is a note.
 > 
 
-$\textcolor{red}{\text{creator_repo%}}$$\textcolor{orange}{\text{exe_id%}}$
+$\textcolor{red}{\text{creator_repo}\textcolor{orange}{\text{exe_id}$
 
