@@ -11,6 +11,22 @@
 | matching                 | $ drag&drop | dropdown merged | N/A    | radio unmerged | N/A        |             |
 | open                     |             | OK              |        |                |            |             |
 
+# directory tree
+
+```bash
+q4eef                 
+└───bank            
+    ├───adapters    
+    │   └───getmarke
+    ├───pivots      
+    └───ready2import
+        ├───kahoot  
+        ├───moodle  
+        ├───quizziz 
+        └───wooclap 
+```
+
+
 # Reuser tools
 
 # Creator tools
