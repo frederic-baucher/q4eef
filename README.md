@@ -1,11 +1,9 @@
-$\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}\textcolor{black}{\text{-}}\textcolor{blue}{\text{lang}}\textcolor{black}{\text{.}}\textcolor{green}{\text{format}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{extension}}$
 
-$\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{1472}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious-games}}\textcolor{black}{\text{-}}\textcolor{blue}{\text{en}}\textcolor{black}{\text{.}}\textcolor{green}{\text{aiken}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{txt}}$
-
+<!--
 $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{1472}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious}}$
 _
 $\textcolor{grey}{\text{game}} \textcolor{black}{\text{-}}\textcolor{blue}{\text{en}}\textcolor{black}{\text{.}}\textcolor{green}{\text{aiken}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{txt}}$
-
+-->
 
 
 # q4eef
@@ -34,7 +32,12 @@ $\textcolor{grey}{\text{game}} \textcolor{black}{\text{-}}\textcolor{blue}{\text
 
 ## Naming convention
 Any exercise is exported in file that MUST BE COMPLIANT with the naming convention
-- creator repository identifier (upper case alphabets [A-Z])
+### Pattern
+$\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}\textcolor{black}{\text{-}}\textcolor{blue}{\text{lang}}\textcolor{black}{\text{.}}\textcolor{green}{\text{format}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{extension}}$
+### Example
+$\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{1472}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious-games}}\textcolor{black}{\text{-}}\textcolor{blue}{\text{en}}\textcolor{black}{\text{.}}\textcolor{green}{\text{aiken}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{txt}}$
+### Legend
+- $\textcolor{red}{\text{creator}}$ : creator repository identifier (upper case alphabets [A-Z])
 - id of the exercise (upper case numbers [0-9], unique inside the creator repository)
 - label (only low-case alphabets [a-z] underscore separated if necessary)
 - language
