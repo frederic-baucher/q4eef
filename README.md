@@ -38,3 +38,12 @@ Any exercise is exported in file that MUST BE COMPLIANT with the naming conventi
 # text in gray
 @@ text in purple (and bold)@@
 ```
+
+> __Warning__
+> This is a warning.
+
+> __Note__
+> This is a note.
+> 
+
+
