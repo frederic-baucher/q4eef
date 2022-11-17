@@ -49,6 +49,23 @@ q4eef
 │   └───repo4export
 ```
 
+### Files in directory tree
+
+This tree shows two exercises identified with EXG1427A (mcq type) and EXG2131 (matching type).
+In repo4export, we see the native pivot :
+- EXG1427A has been created in Quizizz and is made available in AIKEN format for other tools.
+- EXG2131 has been created in Moodle and is made available in GIFT format for other tools.
+The native pivots has been converted in format allowed for import by the tools listed ready2import.
+- kahoot : contains some (not necessary all) exercises available in repo4export ready to be imported in Kahoot
+  - EXG1472A.serious_games.kahoot.xlsx : file to be imported in Kahoot to create EXG1472A exercise
+  - EXG2131.scrum_in_essence_constructs.kahoot.xlsx : file to be imported in Kahoot to create EXG2131 exercise
+  - EXG2131.scrum_in_essence_constructs-en.png : image to be uploaded manually in Kahoot to enhance EXG2131 quizz
+- quizizz : contains some (not necessary all) exercises available in repo4export ready to be imported in Quizizz
+  - EXG2131.scrum_in_essence_constructs.quizizz.xlsx : no image because it is embedded in the quizizz Excel format that allow reference to an image.
+- other tools : if a reuser tool does not exist, she/he can ask for creating it her/himself
+If other conversion are necessary in the future, adapters pivot format can also be copied :
+- __EXG1472A.serious_games.getmarked.txt__ : pivot format to be converted by getmarked
+
 ```bash
 ├── bank
 │   ├── pivots4adapt
