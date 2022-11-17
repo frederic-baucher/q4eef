@@ -1,0 +1,40 @@
+@startuml
+left to right direction
+
+actor Creator as c
+actor Maintainer as t
+actor Moderator as m
+actor Reuser as r
+
+t <|-- c
+t <|-- m
+
+package Questions_Bank {
+  usecase "1. Export exercise" as UC1
+}
+
+package Any_Tools {
+  usecase "1b. Convert exercise" as UC2
+}
+
+package q4eef {
+  usecase "0. Request access" as UC0
+  usecase "2. Upload native pivot" as UC3
+  usecase "2b. Upload target pivots" as UC2b
+  usecase "A. Download pivot" as UC4
+}
+
+
+c --> UC1
+c --> UC2
+
+t --> UC2b
+
+c --> UC3
+
+m --> UC0
+
+r --> UC4
+
+c --> UC0
+@enduml
