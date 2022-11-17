@@ -38,11 +38,11 @@ $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\
 $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{1472}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious-games}}\textcolor{black}{\text{-}}\textcolor{blue}{\text{en}}\textcolor{black}{\text{.}}\textcolor{green}{\text{aiken}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{txt}}$
 ### Legend
 - $\textcolor{red}{\text{creator}}$ : creator repository identifier (upper case alphabets [A-Z])
-- id of the exercise (upper case numbers [0-9], unique inside the creator repository)
-- label (only low-case alphabets [a-z] underscore separated if necessary)
-- language
-- format name (among the format list)
-- format extension (xlsx, txt, csv, ...)
+- $\textcolor{orange}{\text{id}}$ : id of the exercise (upper case numbers [0-9], unique inside the creator repository)
+- $\textcolor{grey}{\text{label}}$ : label (only low-case alphabets [a-z] underscore separated if necessary)
+- $\textcolor{blue}{\text{lang}}$ : language
+- $\textcolor{green}{\text{format}}$ : format name (among the format list)
+- $\textcolor{purple}{\text{extension}}$ : format extension (xlsx, txt, csv, ...)
 
 ```diff
 - text in red
