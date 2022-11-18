@@ -1,20 +1,6 @@
 <!-- https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes -->
 # q4eef
 
-```
-https://github.com/frederic-baucher/q4eef/blob/f5c82be6d71f65c6cfb2e8caef1e51fe4a601fe5/README.md?plain=1#L14
-```
-https://github.com/frederic-baucher/q4eef/blob/f5c82be6d71f65c6cfb2e8caef1e51fe4a601fe5/README.md?plain=1#L14
-.
-.
-.
-.
-.
-```
-https://github.com/frederic-baucher/q4eef/blob/2138e6129d5493369d7f65c617416258c2ab2c72/doc/usecases.puml?plain=#L36-L37
-```
-https://github.com/frederic-baucher/q4eef/blob/2138e6129d5493369d7f65c617416258c2ab2c72/doc/usecases.puml?plain=#L36-L37
-
 # Introduction 
 
 ## Usage
@@ -194,8 +180,26 @@ To  let any creator choose its identification numbering of exercise (and yet hav
 [INSA-ROUEN]: https://moodle.insa-rouen.fr
 [Frédéric BAUCHER]: https://fr.linkedin.com/in/fr%C3%A9d%C3%A9ric-baucher-3026481a
 
+
 <!--
-How to color text in README.md
+
+# Quizz taxonomies
+
+| tools>                   | quizizz     | moodle          | kahoot | wooclap        | mentimeter | digitaliser |
+|--------------------------|-------------|-----------------|--------|----------------|------------|-------------|
+| multiple choice question | OK          | OK              | OK     |                | 2          |             |
+| One choice question      |             |                 | OK     |                | 2          |             |
+| true/false               | $           | OK              | OK     |                | 2          |             |
+| matching                 | $ drag&drop | dropdown merged | N/A    | radio unmerged | N/A        |             |
+| open                     |             | OK              |        |                |            |             |
+
+
+-->
+
+<!--
+# How to README.md
+
+## How to color text in README.md
 
 $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{1472}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious}}$
 _
@@ -215,21 +219,9 @@ $\textcolor{grey}{\text{game}} \textcolor{black}{\text{-}}\textcolor{blue}{\text
 > __Note__
 > This is a note.
 > 
--->
 
-<!--
 
-# Quizz taxonomies
-
-| tools>                   | quizizz     | moodle          | kahoot | wooclap        | mentimeter | digitaliser |
-|--------------------------|-------------|-----------------|--------|----------------|------------|-------------|
-| multiple choice question | OK          | OK              | OK     |                | 2          |             |
-| One choice question      |             |                 | OK     |                | 2          |             |
-| true/false               | $           | OK              | OK     |                | 2          |             |
-| matching                 | $ drag&drop | dropdown merged | N/A    | radio unmerged | N/A        |             |
-| open                     |             | OK              |        |                |            |             |
-
-# Display a map
+## Insert a geographic map
 ```geojson
 {
   "type": "FeatureCollection",
@@ -257,6 +249,24 @@ $\textcolor{grey}{\text{game}} \textcolor{black}{\text{-}}\textcolor{blue}{\text
 }
 ```
 
+
+
+
+## Insert excerpt of files in README.md
+
+```
+https://github.com/frederic-baucher/q4eef/blob/f5c82be6d71f65c6cfb2e8caef1e51fe4a601fe5/README.md?plain=1#L14
+```
+https://github.com/frederic-baucher/q4eef/blob/f5c82be6d71f65c6cfb2e8caef1e51fe4a601fe5/README.md?plain=1#L14
+.
+.
+.
+.
+.
+```
+https://github.com/frederic-baucher/q4eef/blob/2138e6129d5493369d7f65c617416258c2ab2c72/doc/usecases.puml?plain=#L36-L37
+```
+https://github.com/frederic-baucher/q4eef/blob/2138e6129d5493369d7f65c617416258c2ab2c72/doc/usecases.puml?plain=#L36-L37
 
 -->
 
