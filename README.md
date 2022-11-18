@@ -7,7 +7,8 @@ q4eef is a solution for sharing Essence exercises and support the Essence adopti
 
 ### Glossary
 The actors of this solution are :
-- __creator__ : any teacher, consultant, ... willing to share with q4eef an exercise she/he created in a Questions_Bank of her/his choice (Moodle, ...).
+- __author__ : any teacher, consultant, ... that creates an exercise in a Questions_Bank of her/his choice (Moodle, ...).
+- __creator__ : any teacher, consultant, ... willing to share, on q4eef, herself/himself or on behalf of the author (after checking the copyright concerns)
 - __reuser__ : any teacher that wants to reuse exercise stored in q4eef
 - __moderator__ : designated teacher(s) monitoring the access to q4eef
 - __maintainer__ : any creator or moderator that generate the target pivots
@@ -121,11 +122,21 @@ The file exported from the creator tool has to be stored in the [__native pivots
 Any exported exercise file __MUST__ have a name (and a sub-directory of _repo4export_) __COMPLIANT__ with the naming convention.
 
 ### Pattern for directory
-- $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}
+- $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}$
+
+#### Examples
+- $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{1472}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious-games}}$
+  - a subdirectory of repo4export containing all the files of the exercise.
+- $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{2131}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{scrum-in-essence-constructs}}$
+
+#### Legend
+- $\textcolor{red}{\text{creator}}$ : creator question bank identifier (upper case alphabets [A-Z]), as registered in the table below
+- $\textcolor{orange}{\text{id}}$ : id of the exercise (upper case numbers [0-9], unique inside the creator repository)
+- $\textcolor{grey}{\text{label}}$ : label (only low-case alphabets [a-z], minus separated if necessary)
 
 ### Pattern for file
 - $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}\textcolor{black}{\text{[-}}\textcolor{blue}{\text{lang}}\textcolor{black}{\text{][.}}\textcolor{pink}{\text{type}}\textcolor{black}{\text{][.}}\textcolor{green}{\text{format}}\textcolor{black}{\text{].}}\textcolor{purple}{\text{extension}}$
-#### Example
+#### Examples
 - $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{1472}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious-games}}\textcolor{black}{\text{.}}\textcolor{green}{\text{aiken}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{txt}}$
   - a file containing an exercise (by default, the type is mcp and the language is english) created in the EXG repository, under id 1472.
 - $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{2131}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{scrum-in-essence-constructs}}\textcolor{black}{\text{.}}\textcolor{pink}{\text{matching}}\textcolor{black}{\text{.}}\textcolor{green}{\text{gift}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{txt}}$
@@ -135,7 +146,7 @@ Any exported exercise file __MUST__ have a name (and a sub-directory of _repo4ex
 #### Legend
 - $\textcolor{red}{\text{creator}}$ : creator question bank identifier (upper case alphabets [A-Z]), as registered in the table below
 - $\textcolor{orange}{\text{id}}$ : id of the exercise (upper case numbers [0-9], unique inside the creator repository)
-- $\textcolor{grey}{\text{label}}$ : label (only low-case alphabets [a-z] underscore separated if necessary)
+- $\textcolor{grey}{\text{label}}$ : label (only low-case alphabets [a-z], minus separated if necessary)
 - $\textcolor{blue}{\text{lang}}$ : language code compliant with ISO 639-1 (default : en)
 - $\textcolor{pink}{\text{type}}$ : type of exercise (default : mcq) 
 - $\textcolor{green}{\text{format}}$ : logical format name (among the format list)
