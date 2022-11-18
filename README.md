@@ -1,4 +1,7 @@
+<!-- https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes -->
 # q4eef
+
+https://github.com/frederic-baucher/q4eef/blob/f5c82be6d71f65c6cfb2e8caef1e51fe4a601fe5/README.md?plain=1#L14
 
 # Introduction 
 
