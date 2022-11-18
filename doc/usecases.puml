@@ -1,7 +1,8 @@
 @startuml
 left to right direction
 
-actor Creator as c
+actor Creator as cc
+actor Facilitator as c
 actor Maintainer as t
 actor Moderator as m
 actor Reuser as r
@@ -10,6 +11,7 @@ t <|-- c
 t <|-- m
 
 package Questions_Bank {
+  usecase "1. Author exercise" as UC0
   usecase "1. Export exercise" as UC1
 }
 
@@ -25,6 +27,7 @@ package q4eef {
 }
 
 
+cc --> UC0
 c --> UC1
 c --> UC2
 
