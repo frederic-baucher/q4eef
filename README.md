@@ -1,7 +1,7 @@
 <!-- https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes -->
 # q4eef
 
-https://github.com/frederic-baucher/q4eef/blob/f5c82be6d71f65c6cfb2e8caef1e51fe4a601fe5/README.md?plain=1#L14
+https://github.com/frederic-baucher/q4eef/blob/2138e6129d5493369d7f65c617416258c2ab2c72/doc/usecases.puml
 
 # Introduction 
 
