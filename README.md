@@ -5,32 +5,7 @@
 ## Usage
 q4eef is a solution for sharing Essence exercises and support the Essence adoption in education.
 
-```geojson
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "id": 1,
-      "properties": {
-        "ID": 0
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-              [-90,35],
-              [-90,30],
-              [-85,30],
-              [-85,35],
-              [-90,35]
-          ]
-        ]
-      }
-    }
-  ]
-}
-```
+
 
 ### Glossary
 The actors of this solution are :
@@ -238,6 +213,35 @@ $\textcolor{grey}{\text{game}} \textcolor{black}{\text{-}}\textcolor{blue}{\text
 | true/false               | $           | OK              | OK     |                | 2          |             |
 | matching                 | $ drag&drop | dropdown merged | N/A    | radio unmerged | N/A        |             |
 | open                     |             | OK              |        |                |            |             |
+
+# Display a map
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "ID": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+              [-90,35],
+              [-90,30],
+              [-85,30],
+              [-85,35],
+              [-90,35]
+          ]
+        ]
+      }
+    }
+  ]
+}
+```
+
 
 -->
 
