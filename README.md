@@ -30,7 +30,7 @@ Use cases :
 
 ### Diagram
 <!-- to update the image in Github, modify THIS README.md file -->
-![Use case diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/frederic-baucher/q4eef/main/doc/usecases.puml)
+![Use case diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/frederic-baucher/q4eef/main/doc/usecases1.puml)
 
 ## Implementation
 q4eef is implemented in this Github repository
