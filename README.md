@@ -79,7 +79,7 @@ If other conversion are necessary in the future, adapters pivot format can also 
 - _SEMAT0094.serious_games.getmarked.txt_ : pivot format to be converted by getmarked
 
 ```bash
-
+bank
 ├── pivots4adapt
 │   └── getmarked
 │       └── SEMAT0094.serious_games.getmarked.txt
@@ -99,12 +99,11 @@ If other conversion are necessary in the future, adapters pivot format can also 
 │       └── SEMAT0094.serious_games.moodle.xml
 └── repo4export
     ├── EXG2131.scrum_in_essence_constructs
+    │   ├── EXG2131.en.png
     │   ├── EXG2131.fr.png
-    │   ├── EXG2131.scrum_in_essence_constructs-en.png
     │   └── EXG2131.scrum_in_essence_constructs.matching.gift.txt
     └── SEMAT0094.serious_games
         └── SEMAT0094.serious_games.aiken.txt
-
 ```
 
 # Creator tools
