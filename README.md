@@ -85,7 +85,7 @@ bank
 │       └── SEMAT0094.serious_games.getmarked.txt
 ├── ready2import
 │   ├── kahoot
-│   │   ├── EXG2131.scrum_in_essence_constructs-en.png
+│   │   ├── EXG2131.en.png
 │   │   ├── EXG2131.scrum_in_essence_constructs.kahoot.xlsx
 │   │   └── SEMAT0094.serious_games.kahoot.xlsx
 │   ├── moodle
