@@ -22,6 +22,7 @@ Use cases :
 - Convert exercise : in case the exported format is not very convenient as a native pivot (like [Quizizz](https://github.com/frederic-baucher/q4eef/blob/main/doc/export_from_quizizz.md)), the creator can convert it with a dedicated tools (regex tools, spreadsheet, ...).
 
 ### Diagram
+<!-- to update the image in Github, modify THIS README.md file -->
 ![Use case diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/frederic-baucher/q4eef/main/doc/usecases.puml)
 
 ## Implementation
