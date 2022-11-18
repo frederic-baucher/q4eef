@@ -1,7 +1,8 @@
 @startuml
+/' edit with https://www.plantuml.com/plantuml/uml/ '/
 left to right direction
 
-actor Creator as cc
+actor Author as cc
 actor Facilitator as c
 actor Maintainer as t
 actor Moderator as m
@@ -20,7 +21,7 @@ package Any_Tools {
 }
 
 package q4eef {
-  usecase "0. Request access" as UC0
+  usecase "0. Request access" as UCZ
   usecase "2. Upload native pivot" as UC3
   usecase "2b. Upload target pivots" as UC2b
   usecase "A. Download pivot" as UC4
@@ -35,9 +36,10 @@ t --> UC2b
 
 c --> UC3
 
-m --> UC0
+m --> UCZ
 
 r --> UC4
 
-c --> UC0
+c --> UCZ
+
 @enduml
