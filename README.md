@@ -8,7 +8,8 @@ q4eef is a solution for sharing Essence exercises and support the Essence adopti
 ### Glossary
 The actors of this solution are :
 - __author__ : any teacher, consultant, ... that creates an exercise in a Questions_Bank of her/his choice (Moodle, ...).
-- __creator__ : any teacher, consultant, ... willing to share, on q4eef, herself/himself or on behalf of the author (after checking the copyright concerns)
+- __facilitator__ : any teacher, consultant, ... willing to share, on q4eef, herself/himself or on behalf of the author (after checking the copyright concerns)
+- __creator__ : a person who is the author and faciltator of an exercise available on q4eef
 - __reuser__ : any teacher that wants to reuse exercise stored in q4eef
 - __moderator__ : designated teacher(s) monitoring the access to q4eef
 - __maintainer__ : any creator or moderator that generate the target pivots
@@ -102,12 +103,21 @@ If other conversion are necessary in the future, adapters pivot format can also 
 # Creator tools
 
 ## Recommended export by creator tools
+<-- edit the table below by copy-pasting in https://www.tablesgenerator.com/markdown_tables -->
 |         | type(s)   | format preferred (first) | preferred (second) |
 |---------|-----------|-------------------|--------------------|
-| moodle  | MCQ       | [aiken]           | [moodle_xml]         |
-|         | Matching  | [gift]        | [moodle_xml]                   |
-| quizizz | MCQ       | [quizizz Excel]   |                    |
-|         | Matching  | [not tested]            |                    |
+| [Moodle]  | [MCQ]       | [aiken]           | [moodle_xml]         |
+|           | [Matching]  | [gift]        | [moodle_xml]                   |
+| [Quizizz] | [MCQ]       | [quizizz Excel]   |                    |
+|           | [Matching]  | [not tested]            |                    |
+
+[Moodle]: https://github.com/frederic-baucher/q4eef/blob/main/doc/tools/moodle.md
+[Quizizz]: https://github.com/frederic-baucher/q4eef/blob/main/doc/tools/quizizz.md
+[Kahoot]: https://github.com/frederic-baucher/q4eef/blob/main/doc/tools/kahoot.md
+[GetMarked]: https://github.com/frederic-baucher/q4eef/blob/main/doc/tools/getmarked.md
+
+[MCQ]: https://github.com/frederic-baucher/q4eef/blob/main/doc/types/mcq.md
+[Matching]: https://github.com/frederic-baucher/q4eef/blob/main/doc/types/matching.md
 
 [aiken]: https://github.com/frederic-baucher/q4eef/blob/main/doc/formats/aiken.md
 [gift]: https://github.com/frederic-baucher/q4eef/blob/main/doc/formats/gift.md
@@ -156,11 +166,15 @@ Any exported exercise file __MUST__ have a name (and a sub-directory of _repo4ex
 ## Registered authors
 To  let any creator choose its identification numbering of exercise (and yet have a unique id for any exercise in q4eef), a creator MUST have a creator id. This table list the creators already registered. To add a new creator, you can edit the table below in [this README.md file](https://github.com/frederic-baucher/q4eef/edit/main/README.md) (a new branch will be created and the q4eef needs to merge it before publication) or you can request before a write access [by filling a new issue](https://github.com/frederic-baucher/q4eef/issues/new) to this Github repository.
 
-| author's id      | author's tool | tool's operator | creator reference                                                          |
-|---------|----------------|-----------------|----------------------------------------------------------------------------|
-| SEMAT   | Quizizz        | _Saas_           | https://semat.org/  |
-| EXG     | Moodle         | INSA-ROUEN      | [Frédéric BAUCHER](https://fr.linkedin.com/in/fr%C3%A9d%C3%A9ric-baucher-3026481a) |
-| welcome | new            | new             | you                                                                        |
+<-- edit the table below by copy-pasting in https://www.tablesgenerator.com/markdown_tables -->
+| author's id | author's bank product | bank's operator | author's reference      | facilitator's reference                                          |
+|-------------|---------------|-----------------|-------------------------|------------------------------------------------------------------|
+| SEMAT       | [Quizizz]       | _Saas_          | https://semat.org       | [Frédéric BAUCHER] |
+| EXG         | [Moodle]        | [INSA-ROUEN]      | [Frédéric BAUCHER] |       |
+| welcome     | new           | new             | you                                                                                | you   |
+
+[INSA-ROUEN]: https://moodle.insa-rouen.fr
+[Frédéric BAUCHER]: https://fr.linkedin.com/in/fr%C3%A9d%C3%A9ric-baucher-3026481a
 
 <!--
 How to color text in README.md
