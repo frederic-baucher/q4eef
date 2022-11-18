@@ -135,24 +135,24 @@ bank
 The file exported from the creator tool has to be stored in the [__native pivots__](https://github.com/frederic-baucher/q4eef/tree/main/bank/repo4export) directory of this Github repository. Any additional file (for instance, images) has to be stored in the same place. All the files must follow the __q4eef naming convention__.
 
 ## Naming convention : q4eef
-Any exported exercise file __MUST__ have a name (and a sub-directory of _repo4export_) __COMPLIANT__ with the naming convention.
+Any exported exercise file __MUST__ have a name (stored in a dedicated sub-directory of _repo4export_) __COMPLIANT__ with the naming convention.
 
-### Pattern for directory
-- $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}$
+### Pattern for the dedicated sub-directory
+- \bank\repo4exported $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}$
 
 #### Examples
 - $\textcolor{red}{\text{SEMAT}}\textcolor{orange}{\text{0094}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious-games}}$
-  - a subdirectory of repo4export containing all the files of the exercise SEMAT0094 (authored by SEMAT as indicated in the table _Registered authors_)
+  - a sub-directory of repo4export containing all the files of the exercise SEMAT0094 (authored by SEMAT as indicated in the table _Registered authors_)
 - $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{2131}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{scrum-in-essence-constructs}}$
-  - a subdirectory of repo4export containing all the files of the exercise EXG2131 (authored by INSA as indicated in the table _Registered authors_)
+  - a sub-directory of repo4export containing all the files of the exercise EXG2131 (authored by INSA as indicated in the table _Registered authors_)
 #### Legend
-- $\textcolor{red}{\text{creator}}$ : creator question bank identifier (upper case alphabets [A-Z]), as registered in the table below
+- $\textcolor{red}{\text{creator}}$ : creator question bank identifier (upper case alphabets [A-Z]), as registered in the table _Registered authors_ (below)
 - $\textcolor{orange}{\text{id}}$ : id of the exercise (upper case numbers [0-9], unique inside the creator repository)
 - $\textcolor{grey}{\text{label}}$ : label (only low-case alphabets [a-z], minus separated if necessary)
 
 ### Pattern for file
 - $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{[.}}\textcolor{grey}{\text{label}}\textcolor{black}{\text{][-][}}\textcolor{blue}{\text{lang}}\textcolor{black}{\text{][.}}\textcolor{pink}{\text{type}}\textcolor{black}{\text{][.}}\textcolor{green}{\text{format}}\textcolor{black}{\text{].}}\textcolor{purple}{\text{extension}}$
-  - in directory q4eef\banck\repor4exported\ $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}$
+  - in directory \bank\repo4exported\ $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}$
 #### Examples
 - $\textcolor{red}{\text{SEMAT}}\textcolor{orange}{\text{0094}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious-games}}\textcolor{black}{\text{.}}\textcolor{green}{\text{aiken}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{txt}}$
   - a file containing an exercise (by default, the type is mcp and the language is english) created in the SEMAT repository, under id 1472.
