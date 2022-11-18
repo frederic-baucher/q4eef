@@ -52,18 +52,18 @@ q4eef
 
 ### Files in directory tree
 
-This tree shows two exercises identified by id EXG1427A (mcq type) and id EXG2131 (matching type).
-- EXG1427A has been created in Quizizz and is made available in AIKEN format for other tools.
+This tree shows two exercises identified by id SEMAT0094 (mcq type) and id EXG2131 (matching type).
+- SEMAT0094 has been created in Quizizz and is made available in AIKEN format for other tools.
 - EXG2131 has been created in Moodle and is made available in GIFT format for other tools.
 
 In __repo4export__ directory, we see the native pivot of __any__ shared exercise :
-- _EXG1472A.serious_games.aiken.txt_
+- _SEMAT0094.serious_games.aiken.txt_
 - _EXG2131.scrum_in_essence_constructs.gift.txt_
   - _EXG2131.scrum_in_essence_constructs-en.png, EXG2131.scrum_in_essence_constructs-fr.png_ : additional files that can be used (if allowed in target tool) for enhancing the student experience.
 
 The __native pivots__ has been converted in format allowed for import by the tools listed __ready2import__.
 - kahoot : contains __some (not necessary all)__ exercises available in _repo4export_ ready to be imported in Kahoot
-  - _EXG1472A.serious_games.kahoot.xlsx_ : file to be imported in Kahoot to create EXG1472A exercise
+  - _SEMAT0094.serious_games.kahoot.xlsx_ : file to be imported in Kahoot to create SEMAT0094 exercise
   - _EXG2131.scrum_in_essence_constructs.kahoot.xlsx_ : file to be imported in Kahoot to create EXG2131 exercise
   - _EXG2131.scrum_in_essence_constructs-en.png_ : image to be uploaded manually in Kahoot to enhance EXG2131 quizz in english
 - quizizz : contains some (not necessary all) exercises available in repo4export ready to be imported in Quizizz
@@ -71,29 +71,29 @@ The __native pivots__ has been converted in format allowed for import by the too
 - other tools : if a reuser tool does not exist, she/he can ask for creating it her/himself
 
 If other conversion are necessary in the future, adapters pivot format can also be copied in __pivots4adapt__ :
-- _EXG1472A.serious_games.getmarked.txt_ : pivot format to be converted by getmarked
+- _SEMAT0094.serious_games.getmarked.txt_ : pivot format to be converted by getmarked
 
 ```bash
 ├── bank
 │   ├── pivots4adapt
 │   │   └── getmarked
-│   │       └── EXG1472A.serious_games.getmarked.txt
+│   │       └── SEMAT0094.serious_games.getmarked.txt
 │   ├── ready2import
 │   │   ├── kahoot
-│   │   │   ├── EXG1472A.serious_games.kahoot.xlsx
+│   │   │   ├── SEMAT0094.serious_games.kahoot.xlsx
 │   │   │   ├── EXG2131.scrum_in_essence_constructs-en.png
 │   │   │   └── EXG2131.scrum_in_essence_constructs.kahoot.xlsx
 │   │   ├── moodle
-│   │   │   ├── EXG1472A.serious_games.aiken.txt
+│   │   │   ├── SEMAT0094.serious_games.aiken.txt
 │   │   │   └── EXG2131.scrum_in_essence_constructs.moodle.xml
 │   │   ├── quizziz
-│   │   │   ├── EXG1472A.serious_games.quizizz.xlsx
+│   │   │   ├── SEMAT0094.serious_games.quizizz.xlsx
 │   │   │   └── EXG2131.scrum_in_essence_constructs.quizizz.xlsx
 │   │   └── wooclap
-│   │       ├── EXG1472A.serious_games.moodle.xml
+│   │       ├── SEMAT0094.serious_games.moodle.xml
 │   │       └── EXG2131.scrum_in_essence_constructs.moodle.xml
 │   └── repo4export
-│       ├── EXG1472A.serious_games.aiken.txt
+│       ├── SEMAT0094.serious_games.aiken.txt
 │       ├── EXG2131.scrum_in_essence_constructs-en.png
 │       ├── EXG2131.scrum_in_essence_constructs-fr.png
 │       └── EXG2131.scrum_in_essence_constructs.gift.txt
@@ -135,7 +135,8 @@ Any exported exercise file __MUST__ have a name (and a sub-directory of _repo4ex
 - $\textcolor{grey}{\text{label}}$ : label (only low-case alphabets [a-z], minus separated if necessary)
 
 ### Pattern for file
-- $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}\textcolor{black}{\text{[-}}\textcolor{blue}{\text{lang}}\textcolor{black}{\text{][.}}\textcolor{pink}{\text{type}}\textcolor{black}{\text{][.}}\textcolor{green}{\text{format}}\textcolor{black}{\text{].}}\textcolor{purple}{\text{extension}}$
+- $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{[.}}\textcolor{grey}{\text{label}}\textcolor{black}{\text{][-}}\textcolor{blue}{\text{lang}}\textcolor{black}{\text{][.}}\textcolor{pink}{\text{type}}\textcolor{black}{\text{][.}}\textcolor{green}{\text{format}}\textcolor{black}{\text{].}}\textcolor{purple}{\text{extension}}$
+  - in directory q4eef\banck\repor4exported\$\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}$
 #### Examples
 - $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{1472}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious-games}}\textcolor{black}{\text{.}}\textcolor{green}{\text{aiken}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{txt}}$
   - a file containing an exercise (by default, the type is mcp and the language is english) created in the EXG repository, under id 1472.
