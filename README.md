@@ -136,7 +136,7 @@ Any exported exercise file __MUST__ have a name (and a sub-directory of _repo4ex
 
 ### Pattern for file
 - $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{[.}}\textcolor{grey}{\text{label}}\textcolor{black}{\text{][-}}\textcolor{blue}{\text{lang}}\textcolor{black}{\text{][.}}\textcolor{pink}{\text{type}}\textcolor{black}{\text{][.}}\textcolor{green}{\text{format}}\textcolor{black}{\text{].}}\textcolor{purple}{\text{extension}}$
-  - in directory q4eef\banck\repor4exported\$\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}$
+  - in directory q4eef\banck\repor4exported\ $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}$
 #### Examples
 - $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{1472}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious-games}}\textcolor{black}{\text{.}}\textcolor{green}{\text{aiken}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{txt}}$
   - a file containing an exercise (by default, the type is mcp and the language is english) created in the EXG repository, under id 1472.
