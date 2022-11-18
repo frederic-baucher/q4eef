@@ -1,3 +1,4 @@
+<!-- https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes -->
 # q4eef
 
 # Introduction 
@@ -5,10 +6,13 @@
 ## Usage
 q4eef is a solution for sharing Essence exercises and support the Essence adoption in education.
 
+
+
 ### Glossary
 The actors of this solution are :
 - __author__ : any teacher, consultant, ... that creates an exercise in a Questions_Bank of her/his choice (Moodle, ...).
-- __creator__ : any teacher, consultant, ... willing to share, on q4eef, herself/himself or on behalf of the author (after checking the copyright concerns)
+- __facilitator__ : any teacher, consultant, ... willing to share, on q4eef, herself/himself or on behalf of the author (after checking the copyright concerns)
+- __creator__ : a person who is the author and faciltator of an exercise available on q4eef
 - __reuser__ : any teacher that wants to reuse exercise stored in q4eef
 - __moderator__ : designated teacher(s) monitoring the access to q4eef
 - __maintainer__ : any creator or moderator that generate the target pivots
@@ -21,7 +25,8 @@ Use cases :
 - Convert exercise : in case the exported format is not very convenient as a native pivot (like [Quizizz](https://github.com/frederic-baucher/q4eef/blob/main/doc/export_from_quizizz.md)), the creator can convert it with a dedicated tools (regex tools, spreadsheet, ...).
 
 ### Diagram
-![Use case diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/frederic-baucher/q4eef/main/doc/usecases.puml)
+<!-- to update the image in Github, modify THIS README.md file -->
+![Use case diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/frederic-baucher/q4eef/main/doc/usecases1.puml)
 
 ## Implementation
 q4eef is implemented in this Github repository
@@ -102,12 +107,21 @@ If other conversion are necessary in the future, adapters pivot format can also 
 # Creator tools
 
 ## Recommended export by creator tools
+<!-- edit the table below by copy-pasting in https://www.tablesgenerator.com/markdown_tables -->
 |         | type(s)   | format preferred (first) | preferred (second) |
 |---------|-----------|-------------------|--------------------|
-| moodle  | MCQ       | [aiken]           | [moodle_xml]         |
-|         | Matching  | [gift]        | [moodle_xml]                   |
-| quizizz | MCQ       | [quizizz Excel]   |                    |
-|         | Matching  | [not tested]            |                    |
+| [Moodle]  | [MCQ]       | [aiken]           | [moodle_xml]         |
+|           | [Matching]  | [gift]        | [moodle_xml]                   |
+| [Quizizz] | [MCQ]       | [quizizz Excel]   |                    |
+|           | [Matching]  | [not tested]            |                    |
+
+[Moodle]: https://github.com/frederic-baucher/q4eef/blob/main/doc/tools/moodle.md
+[Quizizz]: https://github.com/frederic-baucher/q4eef/blob/main/doc/tools/quizizz.md
+[Kahoot]: https://github.com/frederic-baucher/q4eef/blob/main/doc/tools/kahoot.md
+[GetMarked]: https://github.com/frederic-baucher/q4eef/blob/main/doc/tools/getmarked.md
+
+[MCQ]: https://github.com/frederic-baucher/q4eef/blob/main/doc/types/mcq.md
+[Matching]: https://github.com/frederic-baucher/q4eef/blob/main/doc/types/matching.md
 
 [aiken]: https://github.com/frederic-baucher/q4eef/blob/main/doc/formats/aiken.md
 [gift]: https://github.com/frederic-baucher/q4eef/blob/main/doc/formats/gift.md
@@ -125,24 +139,24 @@ Any exported exercise file __MUST__ have a name (and a sub-directory of _repo4ex
 - $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}$
 
 #### Examples
-- $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{1472}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious-games}}$
-  - a subdirectory of repo4export containing all the files of the exercise.
+- $\textcolor{red}{\text{SEMAT}}\textcolor{orange}{\text{0094}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious-games}}$
+  - a subdirectory of repo4export containing all the files of the exercise SEMAT0094 (authored by SEMAT as indicated in the table _Registered authors_)
 - $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{2131}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{scrum-in-essence-constructs}}$
-
+  - a subdirectory of repo4export containing all the files of the exercise EXG2131 (authored by INSA as indicated in the table _Registered authors_)
 #### Legend
 - $\textcolor{red}{\text{creator}}$ : creator question bank identifier (upper case alphabets [A-Z]), as registered in the table below
 - $\textcolor{orange}{\text{id}}$ : id of the exercise (upper case numbers [0-9], unique inside the creator repository)
 - $\textcolor{grey}{\text{label}}$ : label (only low-case alphabets [a-z], minus separated if necessary)
 
 ### Pattern for file
-- $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{[.}}\textcolor{grey}{\text{label}}\textcolor{black}{\text{][-}}\textcolor{blue}{\text{lang}}\textcolor{black}{\text{][.}}\textcolor{pink}{\text{type}}\textcolor{black}{\text{][.}}\textcolor{green}{\text{format}}\textcolor{black}{\text{].}}\textcolor{purple}{\text{extension}}$
-  - in directory q4eef\banck\repor4exported\$\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}$
+- $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{[.}}\textcolor{grey}{\text{label}}\textcolor{black}{\text{][-][}}\textcolor{blue}{\text{lang}}\textcolor{black}{\text{][.}}\textcolor{pink}{\text{type}}\textcolor{black}{\text{][.}}\textcolor{green}{\text{format}}\textcolor{black}{\text{].}}\textcolor{purple}{\text{extension}}$
+  - in directory q4eef\banck\repor4exported\ $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}$
 #### Examples
-- $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{1472}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious-games}}\textcolor{black}{\text{.}}\textcolor{green}{\text{aiken}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{txt}}$
-  - a file containing an exercise (by default, the type is mcp and the language is english) created in the EXG repository, under id 1472.
+- $\textcolor{red}{\text{SEMAT}}\textcolor{orange}{\text{0094}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious-games}}\textcolor{black}{\text{.}}\textcolor{green}{\text{aiken}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{txt}}$
+  - a file containing an exercise (by default, the type is mcp and the language is english) created in the SEMAT repository, under id 1472.
 - $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{2131}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{scrum-in-essence-constructs}}\textcolor{black}{\text{.}}\textcolor{pink}{\text{matching}}\textcolor{black}{\text{.}}\textcolor{green}{\text{gift}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{txt}}$
   - a file containing a matching exercise in GIFT format stored in a txt file (for info, AIKEN does not support matching type).
-- $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{2131}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{scrum-in-essence-constructs}}\textcolor{black}{\text{-}}\textcolor{blue}{\text{fr}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{png}}$
+- $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{2131}}\textcolor{black}{\text{.}}\textcolor{blue}{\text{fr}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{png}}$
   - a file containing an image localised in french to be used with exercise EXG2131
 #### Legend
 - $\textcolor{red}{\text{creator}}$ : creator question bank identifier (upper case alphabets [A-Z]), as registered in the table below
@@ -153,17 +167,39 @@ Any exported exercise file __MUST__ have a name (and a sub-directory of _repo4ex
 - $\textcolor{green}{\text{format}}$ : logical format name (among the format list)
 - $\textcolor{purple}{\text{extension}}$ : technical format name (xlsx, txt, csv, ...)
 
-## Registered creators
+## Registered authors
 To  let any creator choose its identification numbering of exercise (and yet have a unique id for any exercise in q4eef), a creator MUST have a creator id. This table list the creators already registered. To add a new creator, you can edit the table below in [this README.md file](https://github.com/frederic-baucher/q4eef/edit/main/README.md) (a new branch will be created and the q4eef needs to merge it before publication) or you can request before a write access [by filling a new issue](https://github.com/frederic-baucher/q4eef/issues/new) to this Github repository.
 
-| author's id      | author's tool | tool's operator | creator reference                                                          |
-|---------|----------------|-----------------|----------------------------------------------------------------------------|
-| SEMAT   | Quizizz        | _Saas_           | https://semat.org/  |
-| EXG     | Moodle         | INSA-ROUEN      | [Frédéric BAUCHER](https://fr.linkedin.com/in/fr%C3%A9d%C3%A9ric-baucher-3026481a) |
-| welcome | new            | new             | you                                                                        |
+<!-- edit the table below by copy-pasting in https://www.tablesgenerator.com/markdown_tables -->
+| author's id | author's bank product | bank's operator | author's reference      | facilitator's reference                                          |
+|-------------|---------------|-----------------|-------------------------|------------------------------------------------------------------|
+| SEMAT       | [Quizizz]       | _Saas_          | https://semat.org       | [Frédéric BAUCHER] |
+| EXG         | [Moodle]        | [INSA-ROUEN]      | [Frédéric BAUCHER] |       |
+| welcome     | new           | new             | you                                                                                | you   |
+
+[INSA-ROUEN]: https://moodle.insa-rouen.fr
+[Frédéric BAUCHER]: https://fr.linkedin.com/in/fr%C3%A9d%C3%A9ric-baucher-3026481a
+
 
 <!--
-How to color text in README.md
+
+# Quizz taxonomies
+
+| tools>                   | quizizz     | moodle          | kahoot | wooclap        | mentimeter | digitaliser |
+|--------------------------|-------------|-----------------|--------|----------------|------------|-------------|
+| multiple choice question | OK          | OK              | OK     |                | 2          |             |
+| One choice question      |             |                 | OK     |                | 2          |             |
+| true/false               | $           | OK              | OK     |                | 2          |             |
+| matching                 | $ drag&drop | dropdown merged | N/A    | radio unmerged | N/A        |             |
+| open                     |             | OK              |        |                |            |             |
+
+
+-->
+
+<!--
+# How to README.md
+
+## How to color text in README.md
 
 $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{1472}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious}}$
 _
@@ -183,19 +219,54 @@ $\textcolor{grey}{\text{game}} \textcolor{black}{\text{-}}\textcolor{blue}{\text
 > __Note__
 > This is a note.
 > 
--->
 
-<!--
 
-# Quizz taxonomies
+## Insert a geographic map
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "ID": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+              [-90,35],
+              [-90,30],
+              [-85,30],
+              [-85,35],
+              [-90,35]
+          ]
+        ]
+      }
+    }
+  ]
+}
+```
 
-| tools>                   | quizizz     | moodle          | kahoot | wooclap        | mentimeter | digitaliser |
-|--------------------------|-------------|-----------------|--------|----------------|------------|-------------|
-| multiple choice question | OK          | OK              | OK     |                | 2          |             |
-| One choice question      |             |                 | OK     |                | 2          |             |
-| true/false               | $           | OK              | OK     |                | 2          |             |
-| matching                 | $ drag&drop | dropdown merged | N/A    | radio unmerged | N/A        |             |
-| open                     |             | OK              |        |                |            |             |
+
+
+
+## Insert excerpt of files in README.md
+
+```
+https://github.com/frederic-baucher/q4eef/blob/f5c82be6d71f65c6cfb2e8caef1e51fe4a601fe5/README.md?plain=1#L14
+```
+https://github.com/frederic-baucher/q4eef/blob/f5c82be6d71f65c6cfb2e8caef1e51fe4a601fe5/README.md?plain=1#L14
+.
+.
+.
+.
+.
+```
+https://github.com/frederic-baucher/q4eef/blob/2138e6129d5493369d7f65c617416258c2ab2c72/doc/usecases.puml?plain=#L36-L37
+```
+https://github.com/frederic-baucher/q4eef/blob/2138e6129d5493369d7f65c617416258c2ab2c72/doc/usecases.puml?plain=#L36-L37
 
 -->
 
