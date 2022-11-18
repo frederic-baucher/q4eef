@@ -125,21 +125,21 @@ Any exported exercise file __MUST__ have a name (and a sub-directory of _repo4ex
 - $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}$
 
 #### Examples
-- $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{1472}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious-games}}$
-  - a subdirectory of repo4export containing all the files of the exercise.
+- $\textcolor{red}{\text{SEMAT}}\textcolor{orange}{\text{0094}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious-games}}$
+  - a subdirectory of repo4export containing all the files of the exercise SEMAT0094 (authored by SEMAT as indicated in the table _Registered authors_)
 - $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{2131}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{scrum-in-essence-constructs}}$
-
+  - a subdirectory of repo4export containing all the files of the exercise EXG2131 (authored by INSA as indicated in the table _Registered authors_)
 #### Legend
 - $\textcolor{red}{\text{creator}}$ : creator question bank identifier (upper case alphabets [A-Z]), as registered in the table below
 - $\textcolor{orange}{\text{id}}$ : id of the exercise (upper case numbers [0-9], unique inside the creator repository)
 - $\textcolor{grey}{\text{label}}$ : label (only low-case alphabets [a-z], minus separated if necessary)
 
 ### Pattern for file
-- $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{[.}}\textcolor{grey}{\text{label}}\textcolor{black}{\text{][-}}\textcolor{blue}{\text{lang}}\textcolor{black}{\text{][.}}\textcolor{pink}{\text{type}}\textcolor{black}{\text{][.}}\textcolor{green}{\text{format}}\textcolor{black}{\text{].}}\textcolor{purple}{\text{extension}}$
+- $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{[.}}\textcolor{grey}{\text{label}}\textcolor{black}{\text{][-][}}\textcolor{blue}{\text{lang}}\textcolor{black}{\text{][.}}\textcolor{pink}{\text{type}}\textcolor{black}{\text{][.}}\textcolor{green}{\text{format}}\textcolor{black}{\text{].}}\textcolor{purple}{\text{extension}}$
   - in directory q4eef\banck\repor4exported\ $\textcolor{red}{\text{creator}}\textcolor{orange}{\text{id}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{label}}$
 #### Examples
-- $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{1472}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious-games}}\textcolor{black}{\text{.}}\textcolor{green}{\text{aiken}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{txt}}$
-  - a file containing an exercise (by default, the type is mcp and the language is english) created in the EXG repository, under id 1472.
+- $\textcolor{red}{\text{SEMAT}}\textcolor{orange}{\text{0094}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{serious-games}}\textcolor{black}{\text{.}}\textcolor{green}{\text{aiken}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{txt}}$
+  - a file containing an exercise (by default, the type is mcp and the language is english) created in the SEMAT repository, under id 1472.
 - $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{2131}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{scrum-in-essence-constructs}}\textcolor{black}{\text{.}}\textcolor{pink}{\text{matching}}\textcolor{black}{\text{.}}\textcolor{green}{\text{gift}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{txt}}$
   - a file containing a matching exercise in GIFT format stored in a txt file (for info, AIKEN does not support matching type).
 - $\textcolor{red}{\text{EXG}}\textcolor{orange}{\text{2131}}\textcolor{black}{\text{.}}\textcolor{grey}{\text{scrum-in-essence-constructs}}\textcolor{black}{\text{-}}\textcolor{blue}{\text{fr}}\textcolor{black}{\text{.}}\textcolor{purple}{\text{png}}$
@@ -153,7 +153,7 @@ Any exported exercise file __MUST__ have a name (and a sub-directory of _repo4ex
 - $\textcolor{green}{\text{format}}$ : logical format name (among the format list)
 - $\textcolor{purple}{\text{extension}}$ : technical format name (xlsx, txt, csv, ...)
 
-## Registered creators
+## Registered authors
 To  let any creator choose its identification numbering of exercise (and yet have a unique id for any exercise in q4eef), a creator MUST have a creator id. This table list the creators already registered. To add a new creator, you can edit the table below in [this README.md file](https://github.com/frederic-baucher/q4eef/edit/main/README.md) (a new branch will be created and the q4eef needs to merge it before publication) or you can request before a write access [by filling a new issue](https://github.com/frederic-baucher/q4eef/issues/new) to this Github repository.
 
 | author's id      | author's tool | tool's operator | creator reference                                                          |
