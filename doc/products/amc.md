@@ -1,4 +1,6 @@
 
+# AMC (Auto Multiple Choice)
+
 ## Note
 q4eef do generate chunks (piece of code) to be inserted in a exam template (and not a file that can be treated as a whole by AMC).
 
