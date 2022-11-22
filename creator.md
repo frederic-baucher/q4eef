@@ -1,4 +1,4 @@
-# Creator living manual
+# Creator's and Facilitator's living manual
 
 ## Recommended export by creator tools
 <!-- edit the table below by copy-pasting in https://www.tablesgenerator.com/markdown_tables -->
