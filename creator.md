@@ -1,12 +1,12 @@
 # Creator's and Facilitator's living manual
 
-## Recommended export by creator tools
+## Recommended export for native format by creator tools
 <!-- edit the table below by copy-pasting in https://www.tablesgenerator.com/markdown_tables -->
 |         | type(s)   | format preferred (first) | preferred (second) |
 |---------|-----------|-------------------|--------------------|
 | [Moodle]  | [MCQ]       | [aiken]           | [moodle_xml]         |
 |           | [Matching]  | [gift]        | [moodle_xml]                   |
-| [Quizizz] | [MCQ]       | [quizizz Excel]   |                    |
+| [Quizizz] | [MCQ]       | [quizizz HTML]   |                    |
 |           | [Matching]  | [not tested]            |                    |
 
 [Moodle]: https://github.com/frederic-baucher/q4eef/blob/main/doc/tools/moodle.md
