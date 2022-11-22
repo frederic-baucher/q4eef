@@ -105,7 +105,7 @@ bank
     │   ├── EXG2131.fr.png
     │   └── EXG2131.scrum_in_essence_constructs.matching.gift.txt
     └── SEMAT0094.serious_games
-        └── SEMAT0094.serious_games.aiken.txt
+        └── SEMAT0094.serious_games.quizizz.html
 ```
 
 ## To go further
