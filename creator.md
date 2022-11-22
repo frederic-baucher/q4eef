@@ -21,6 +21,7 @@
 [gift]: https://github.com/frederic-baucher/q4eef/blob/main/doc/formats/gift.md
 [moodle_xml]: https://github.com/frederic-baucher/q4eef/blob/main/doc/formats/moodle_xml.md
 [quizizz Excel]: https://github.com/frederic-baucher/q4eef/blob/main/doc/formats/quizizz_excel.md
+[quizizz_HTML]: https://github.com/frederic-baucher/q4eef/blob/main/doc/formats/quizizz_html.md
 [not tested]: https://github.com/frederic-baucher/q4eef/blob/main/doc/formats/not_tested.md
 
 ## Storage repository : pivots
