@@ -6,7 +6,7 @@
 |---------|-----------|-------------------|--------------------|
 | [Moodle]  | [MCQ]       | [aiken]           | [moodle_xml]         |
 |           | [Matching]  | [gift]        | [moodle_xml]                   |
-| [Quizizz] | [MCQ]       | [quizizz HTML]   |                    |
+| [Quizizz] | [MCQ]       | [quizizz_HTML]   |                    |
 |           | [Matching]  | [not tested]            |                    |
 
 [Moodle]: https://github.com/frederic-baucher/q4eef/blob/main/doc/tools/moodle.md
