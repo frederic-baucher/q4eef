@@ -42,17 +42,19 @@ The main directories for user's of q4eef are as follow :
 
 ```bash
 q4eef
-├───bank
-│   ├───pivots4adapt
-│   │   └───getmarked
-    │   └───any_new_adapter...    
-│   ├───ready2import
-│   │   ├───kahoot
-│   │   ├───moodle
-│   │   ├───quizziz
-│   │   └───wooclap
+├── bank
+│   ├── pivots4adapt
+│   │   ├── getmarked
+|   │   └── any_new_adapter...    
+│   ├── ready2import
+│   │   ├── kahoot
+│   │   ├── moodle
+│   │   ├── quizziz
+│   │   ├── wooclap
 │   │   └───any_new_tool_of_reuser ...             
-│   └───repo4export
+│   └── repo4export
+...
+└── tools
 ```
 
 ### Files in directory tree
