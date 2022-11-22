@@ -63,7 +63,6 @@ Any exported exercise file __MUST__ have a name (stored in a dedicated sub-direc
 - $\textcolor{purple}{\text{extension}}$ : technical format name (xlsx, txt, csv, ...)
 
 ## Registered authors
-To  let any creator choose its identification numbering of exercise (and yet have a unique id for any exercise in q4eef), a creator MUST have a creator id. This table list the creators already registered. To add a new creator, you can edit the table below in [this README.md file](https://github.com/frederic-baucher/q4eef/edit/main/README.md) (a new branch will be created and the q4eef needs to merge it before publication) or you can request before a write access [by filling a new issue](https://github.com/frederic-baucher/q4eef/issues/new) to this Github repository.
 
 <!-- edit the table below by copy-pasting in https://www.tablesgenerator.com/markdown_tables -->
 | author's id | author's bank product | bank's operator | author's reference      | facilitator's reference                                          |
@@ -71,6 +70,8 @@ To  let any creator choose its identification numbering of exercise (and yet hav
 | SEMAT       | [Quizizz]       | _Saas_          | https://semat.org       | [Frédéric BAUCHER] |
 | EXG         | [Moodle]        | [INSA-ROUEN]      | [Frédéric BAUCHER] |       |
 | welcome     | new           | new             | you                                                                                | you   |
+
+To  let any creator choose its identification numbering of exercise (and yet have a unique id for any exercise in q4eef), a creator MUST have a creator id. This table list the creators already registered. To add a new creator, you can edit the table below in [this README.md file](https://github.com/frederic-baucher/q4eef/edit/main/README.md) (a new branch will be created and the q4eef needs to merge it before publication) or you can request before a write access [by filling a new issue](https://github.com/frederic-baucher/q4eef/issues/new) to this Github repository.
 
 [INSA-ROUEN]: https://moodle.insa-rouen.fr
 [Frédéric BAUCHER]: https://fr.linkedin.com/in/fr%C3%A9d%C3%A9ric-baucher-3026481a
