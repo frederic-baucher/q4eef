@@ -101,10 +101,12 @@ bank
 │       └── SEMAT0094.serious_games.moodle.xml
 └── repo4export
     ├── EXG2131.scrum_in_essence_constructs
+    │   ├── README.md    
     │   ├── EXG2131.en.png
     │   ├── EXG2131.fr.png
     │   └── EXG2131.scrum_in_essence_constructs.matching.gift.txt
     └── SEMAT0094.serious_games
+        ├── README.md
         └── SEMAT0094.serious_games.quizizz.html
 ```
 
