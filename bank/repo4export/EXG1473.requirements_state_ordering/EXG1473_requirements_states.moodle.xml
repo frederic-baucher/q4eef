@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 2641843  -->
+  <question type="matching">
+    <name>
+      <text>EXG1473: Requirements states</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text>Match each of the 4 states below with their corresponding order on the Requirements ALPHA state card.</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>false</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text>1</text>
+      <answer>
+        <text>Conceived</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>2</text>
+      <answer>
+        <text>Bounded</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>3</text>
+      <answer>
+        <text>Coherent</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>5</text>
+      <answer>
+        <text>Addressed</text>
+      </answer>
+    </subquestion>
+  </question>
+
+</quiz>
